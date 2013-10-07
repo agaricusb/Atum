@@ -155,6 +155,7 @@ public class AtumConfig
 		cobbleID = config.getBlock("Cracked Limestone", cobbleID).getInt();
 		largeBrickID = config.getBlock("Large Brick", largeBrickID).getInt();
 		smallBrickID = config.getBlock("Small Brick", smallBrickID).getInt();
+		stoneStairs = config.getBlock("Stone Stairs", stoneStairs).getInt();
 		carvedBrickID = config.getBlock("Carved Limestone", carvedBrickID).getInt();
 		slabID = config.getBlock("Limestone Slabs", slabID).getInt();
 		doubleSlabID = config.getBlock("Double Limestone Slabs", doubleSlabID).getInt();
@@ -167,6 +168,7 @@ public class AtumConfig
 		leavesID = config.getBlock("Palm Leaves", leavesID).getInt();
 		weedID = config.getBlock("Desert Plant", weedID).getInt();
 		trapArrowID = config.getBlock("Fire Trap", trapArrowID).getInt();
+		sandLayeredID = config.getBlock("Sand Layered", sandLayeredID).getInt();
 		furnaceIdleID = config.getBlock("Limestone Furnace Idle", furnaceIdleID).getInt();
 		furnaceBurningID = config.getBlock("Limestone Furnace Burning", furnaceBurningID).getInt();
 		plankID = config.getBlock("Palm Planks", plankID).getInt();
@@ -178,6 +180,7 @@ public class AtumConfig
 		lapisOreID = config.getBlock("Lapis Ore", lapisOreID).getInt();
 		diamondOreID = config.getBlock("Diamond Ore", diamondOreID).getInt();
 		papyrusBlockID = config.getBlock("Papyrus Block", papyrusBlockID).getInt();
+		crackedLargeBrickID = config.getBlock("Cracked Large Brick", crackedLargeBrickID).getInt();
 		wallID = config.getBlock("Limestone Wall", wallID).getInt();
 		crystalGlassID = config.getBlock("Crystal Glass", crystalGlassID).getInt(crystalGlassID);
 		framedGlassID = config.getBlock("Framed Glass", framedGlassID).getInt(framedGlassID);
@@ -247,6 +250,7 @@ public class AtumConfig
 		desertLegsID = config.getItem("Desert Legs", desertLegsID).getInt();
 		desertBootsID = config.getItem("Desert Boots", desertBootsID).getInt();
 		
+		spearID = config.getItem("Spear", spearID).getInt();
 		lootID = config.getItem("Loot", lootID).getInt();
 		itemPapyrusPlantID = config.getItem("Papyrus Plant Item", itemPapyrusPlantID).getInt();
 		ectoplasmID = config.getItem("Ectoplasm", ectoplasmID).getInt();
